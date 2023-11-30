@@ -1,0 +1,10 @@
+<%= @configs['modulesync_header'] %>
+---
+<%- if @configs.has_key?('ignore') -%>
+ignore:
+<%- @configs['ignore'].each do |value| -%>
+  - <%= value %>
+<%- end -%>
+<%- else -%>
+ignore: []
+<%- end -%>

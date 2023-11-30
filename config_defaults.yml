@@ -4,3 +4,5 @@
   modulesync_header: |-
     # file managed by modulesync
     # do not edit manually
+
+pdk.yaml: {}
