@@ -1,0 +1,6 @@
+---
+base_url: https://api.github.com/
+git_base: 'git@github.com:'
+namespace: markt-de
+branch: modulesync
+message: update by modulesync
